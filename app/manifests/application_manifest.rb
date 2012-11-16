@@ -21,7 +21,7 @@ class ApplicationManifest < Moonshine::Manifest::Rails
   # database.yml, Postfix, Cron, logrotate and NTP. See lib/moonshine/manifest/rails.rb
   # for details. To customize, remove this recipe and specify the components you want.
   recipe :default_stack
-
+  recipe :mongodb
   # Add your application's custom requirements here
   def application_packages
     # If you've already told Moonshine about a package required by a gem with
@@ -51,5 +51,4 @@ class ApplicationManifest < Moonshine::Manifest::Rails
   end
   # The following line includes the 'application_packages' recipe defined above
   recipe :application_packages
-  recipe :mongodb
 end
