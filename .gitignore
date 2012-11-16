@@ -3,7 +3,7 @@ docs/*
 !docs/index.html
 !docs/app_index.html
 !docs/test_index.html
-config.yml
+#config.yml
 .sass-cache
 tmp
 tags

@@ -1,0 +1,19 @@
+--- 
+development: 
+  SECRET_TOKEN: 8731752a3072dc23c29fb81ba4e1d9a6a71397eb235e93710499a893528b
+  CONSUMER_KEY: e2oKcWWPDrMYQykApAaXjw
+  CONSUMER_SECRET: 7NO1DkBndJYSMu4cs0atnFm7PU3KLtqGWPQP2b4rdw
+  ELASTICSEARCH_INDEX_URL: 
+  BLOG_URL: 
+  PONY_VIA_OPTIONS: 
+    address: smtp.yourserver.com
+    port: 25
+    user_name: user
+    password: password
+    authentication: :plain
+    domain: localhost.localdomain
+test: 
+  CONSUMER_KEY: asdf
+  CONSUMER_SECRET: asdf
+  ELASTICSEARCH_INDEX_URL: 
+  BLOG_URL: 
