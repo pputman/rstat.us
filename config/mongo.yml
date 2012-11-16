@@ -1,3 +1,5 @@
+ENV['MONGOLAB_URI'] = ds053681.mongolab.com:97321
+
 defaults: &defaults
   host: 127.0.0.1
   port: 27017
