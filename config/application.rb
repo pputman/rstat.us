@@ -6,7 +6,6 @@ require "action_controller/railtie"
 require "action_mailer/railtie"
 require "active_resource/railtie"
 require "sprockets/railtie"
-ENV["SECRET_TOKEN"] == "test"
 # We don't want test_unit or tasks like db:test:prepare, so we commented out
 # require "rails/test_unit/railtie"
 
