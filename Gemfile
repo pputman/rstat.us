@@ -30,7 +30,7 @@ gem 'omniauth', "~> 1.1.0"
 gem "omniauth-twitter", "~> 0.0.12"
 
 gem "mongo_mapper", "~> 0.12.0"
-gem "mongo", "~> 1.7.0"
+gem "mongo", "~> 1.7.1"
 gem "bson", "~> 1.7.0"
 gem "bson_ext", "~> 1.7.0"
 gem "i18n", "~> 0.6.0"
