@@ -1,4 +1,3 @@
-ENV['MONGOLAB_URI'] = ds053681.mongolab.com:97321
 
 defaults: &defaults
   host: 127.0.0.1
@@ -16,5 +15,5 @@ test:
 production:
   <<: *defaults
   database: <%= ENV['MONGOHQ_DATABASE'] %>
-  uri: <%= ENV['MONGOHQ_URL'] %>
+#  uri: <%= ENV['MONGOHQ_URL'] %>
 
