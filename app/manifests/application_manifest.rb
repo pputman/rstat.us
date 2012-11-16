@@ -51,4 +51,6 @@ class ApplicationManifest < Moonshine::Manifest::Rails
   end
   # The following line includes the 'application_packages' recipe defined above
   recipe :application_packages
+  Puppet::Util::Log.level = :debug
+
 end

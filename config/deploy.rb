@@ -1,1 +1,1 @@
-server 'railsmachine', :app, :web, :db, :primary => true
+server 'patrickputnam.managedmachine.com', :app, :web, :db, :primary => true
