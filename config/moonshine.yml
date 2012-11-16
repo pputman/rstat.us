@@ -52,11 +52,11 @@
   - config/database.yml
 
 # The entries in shared_children are created in #{application}/shared
-:shared_children:
-- system
-- log
-- pids
-- tmp
+#:shared_children:
+#- system
+#- log
+#- pids
+#- tmp
 
 # Specify native dependencies of gems. Moonshine comes with some preconfigured
 # defaults, but this allows you to add to them. Please file an issue at
