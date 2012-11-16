@@ -14,7 +14,7 @@ test:
 # set these environment variables on your prod server
 production:
   <<: *defaults
-   database: rstatus-production
-#  database: <%= ENV['MONGOHQ_DATABASE'] %>
-#  uri: <%= ENV['MONGOHQ_URL'] %>
+  database: rstatus-production
+# database: <%= ENV['MONGOHQ_DATABASE'] %>
+# uri: <%= ENV['MONGOHQ_URL'] %>
 
