@@ -30,7 +30,7 @@ gem 'omniauth', "~> 1.1.0"
 gem "omniauth-twitter", "~> 0.0.12"
 
 gem "mongo_mapper", "~> 0.12.0"
-gem "mongo", "~> 1.7.1"
+gem "mongo" #"~> 1.7.1"
 gem "bson", "~> 1.7.0"
 gem "bson_ext", "~> 1.7.0"
 gem "i18n", "~> 0.6.0"
@@ -51,7 +51,8 @@ gem "newrelic_rpm", "~> 3.3.1"
 gem "draper", "~> 0.11.1"
 
 # background job queue
-gem "delayed_job", :git => "git://github.com/collectiveidea/delayed_job.git", :tag => "v2.1.4"
+gem "delayed_job"
+#gem "delayed_job", :git => "git://github.com/collectiveidea/delayed_job.git", :tag => "v2.1.4"
 gem "delayed_job_mongo_mapper", :git => "git://github.com/earbits/delayed_job_mongo_mapper.git"
 gem "whenever", "~> 0.6.8"
 
