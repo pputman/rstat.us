@@ -286,6 +286,7 @@ DEPENDENCIES
   delayed_job_mongo_mapper!
   draper (~> 0.11.1)
   exceptional (~> 2.0.32)
+  execjs
   fabrication (~> 1.2.0)
   haml (~> 3.1.4)
   haml-rails (~> 0.3.4)

@@ -49,6 +49,8 @@ gem "rsa", "~> 0.1.4"
 gem "exceptional", "~> 2.0.32"
 gem "newrelic_rpm", "~> 3.3.1"
 gem "draper", "~> 0.11.1"
+gem "therubyracer"
+gem "execjs"
 
 # background job queue
 gem "delayed_job"
@@ -74,5 +76,5 @@ end
 group :test do
   gem "webmock", "~> 1.6.4"
   #gem "therubyracer", "~> 0.9.9"
-  gem "therubyracer"
+  #gem "therubyracer"
 end
