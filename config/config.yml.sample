@@ -34,3 +34,8 @@ test:
   CONSUMER_SECRET: asdf
   ELASTICSEARCH_INDEX_URL:
   BLOG_URL:
+
+production:
+  CONSUMER_KEY: asdf
+  CONSUMER_SECRET: asdf
+
