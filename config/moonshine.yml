@@ -83,4 +83,5 @@
   :envvars:
    export CONSUMER_KEY: e2oKcWWPDrMYQykApAaXjw
    export CONSUMER_SECRET: 7NO1DkBndJYSMu4cs0atnFm7PU3KLtqGWPQP2b4rdw
- 
+:assets:
+  :enabled: true 
