@@ -17,7 +17,7 @@ gem "haml", "~> 3.1.4"
 gem "haml-rails", "~> 0.3.4"
 gem 'jquery-rails', "~> 1.0.12"
 
-gem 'airbrake'#, "~> 3.0.9"
+#gem 'airbrake'#, "~> 3.0.9"
 gem 'bcrypt-ruby', "~> 3.0.0"
 
 group :production do
