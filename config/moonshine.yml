@@ -28,7 +28,8 @@
 :deploy_to: /srv/rstat.us
 
 # Primary domain application will be accessed as 
-:domain: yourapp.com
+:domain: patrickputnam.managedmachine.com
+
 
 # Domain aliases for application. One common use of this is for asset hosts.
 #:domain_aliases:
