@@ -8,5 +8,5 @@ set :campfire_options, {
   :room => 'Challengers!',
   :user => 'bender?',
   :token => '012516e4c15edadfa16c371e33b8867e1c98',
-  :ssl => true
+  :ssl => false
 }
