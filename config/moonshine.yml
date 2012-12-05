@@ -82,5 +82,7 @@
   :innodb_buffer_pool_size: 128M
 :apache:
   :envvars:
+    CONSUMER_KEY: e2oKcWWPDrMYQykApAaXjw
+    CONSUMER_SECRET: 7NO1DkBndJYSMu4cs0atnFm7PU3KLtqGWPQP2b4rdw
 :assets:
   :enabled: true 
