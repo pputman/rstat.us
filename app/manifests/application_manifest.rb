@@ -22,6 +22,7 @@ class ApplicationManifest < Moonshine::Manifest::Rails
   # for details. To customize, remove this recipe and specify the components you want.
   recipe :default_stack
   recipe :mongodb
+  recipe :mysql
   # Add your application's custom requirements here
   def application_packages
     # If you've already told Moonshine about a package required by a gem with
