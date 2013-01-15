@@ -23,6 +23,7 @@ class ApplicationManifest < Moonshine::Manifest::Rails
   recipe :default_stack
   recipe :mongodb
   recipe :memcached
+  recipe :redis
   # Add your application's custom requirements here
   def application_packages
     # If you've already told Moonshine about a package required by a gem with
