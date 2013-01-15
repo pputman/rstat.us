@@ -86,3 +86,6 @@
     CONSUMER_SECRET: 7NO1DkBndJYSMu4cs0atnFm7PU3KLtqGWPQP2b4rdw
 :assets:
   :enabled: true 
+:memcached:
+  :max_memory: 512
+  :listen_address: 127.0.0.1
