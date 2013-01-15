@@ -90,10 +90,7 @@
   :max_memory: 512
   :listen_address: 127.0.0.1
 :redis:
-  :version: 2.0.1-2
-  :arch: i386
-  :ruby_client: 1.0.7
-  :enable_on_boot: false
+  :version: 2.4.17
   :max_fd: 4096
 :sysctl:
   vm.overcommit_memory: 1
