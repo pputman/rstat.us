@@ -20,7 +20,7 @@ test:
 
 production:
   adapter: mysql
-  user: pputman
+  username: pputman
   database: whatever
   pool: 5
   timeout: 5000
